@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AstraVi</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <link rel="icon" href="/static/images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="https://Astra-Vi.replit.app">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <section id="home">
+            <h1>Find Similar Images</h1>
+            <form id="upload-form" action="/find_similar/" method="post" enctype="multipart/form-data">
+                <input type="file" name="file" id="file-input">
+                <label for="file-input" class="file-label">Choose a file</label>
+                <input type="submit" value="Upload" class="submit-button">
+            </form>
+            <div id="loading-animation" class="loading-animation">
+                <div class="spinner"></div>
+                <p>Searching for similar images...</p>
+            </div>
+            {% if similar_images %}
+            <h2>Similar Images</h2>
+            <div class="gallery">
+                {% for image in similar_images %}
+                <div class="gallery-item">
+                    <a href="{{ image }}" target="_blank">
+                        <img src="{{ image }}" alt="Similar Image">
+                    </a>
+                </div>
+                {% endfor %}
+            </div>
+            {% endif %}
+        </section>
+        <section id="about">
+            <h2>About HanaSn</h2>
+            <p>HanaSn is a powerful tool that helps you find images similar to the one you upload. Our advanced AI technology ensures high accuracy and fast results.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 HanaSn. All rights reserved. | <a href="reveni324@gmail.com">Contact</a> | <a href="#">Privacy Policy</a></p>
+    </footer>
+    <script src="/static/js/scripts.js"></script>
+</body>
+</html>
