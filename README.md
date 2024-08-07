@@ -1,4 +1,4 @@
-![Logo](https://github.com/Solrikk/AstraVi/blob/main/assets/OpenCV%20-%20result/bee.jpg)
+![Logo](https://github.com/Solrikk/AstraVi/blob/main/assets/images/manul.png)
 
 <div align="center">
   <h3>
