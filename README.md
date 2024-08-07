@@ -1,11 +1,11 @@
-![Logo](https://github.com/Solrikk/AstraVi/blob/main/assets/images/manul.png)
+![Logo](https://github.com/Solrikk/Pinspire/blob/main/assets/images/manul.png)
 
 <div align="center">
   <h3>
-    <a href="https://github.com/Solrikk/AstraVi/blob/main/README.md">⭐English ⭐</a> |
-    <a href="https://github.com/Solrikk/AstraVi/blob/main/README_RU.md">Russian</a> |
-    <a href="https://github.com/Solrikk/AstraVi/blob/main/README_GE.md">German</a> |
-    <a href="https://github.com/Solrikk/AstraVi/blob/main/README_JP.md">Japanese</a> |
+    <a href="https://github.com/Solrikk/Pinspire/blob/main/README.md">⭐English ⭐</a> |
+    <a href="https://github.com/Solrikk/Pinspire/blob/main/README_RU.md">Russian</a> |
+    <a href="https://github.com/Solrikk/Pinspire/blob/main/README_GE.md">German</a> |
+    <a href="https://github.com/Solrikk/Pinspire/blob/main/README_JP.md">Japanese</a> |
     <a href="README_KR.md">Korean</a> |
     <a href="README_CN.md">Chinese</a>
   </h3>
@@ -13,9 +13,9 @@
 
 -----------------
 
-# AstraVi 🔍
+# Pinspire 🔍
 
-**AstraVi** is a powerful web application designed to help users find visually similar images to the one they upload. Utilizing advanced AI technology, AstraVi ensures high accuracy and fast results. Whether you are looking to find similar artwork, products, or any other type of image, AstraVi is here to assist you.
+**Pinspire** is a powerful web application designed to help users find visually similar images to the one they upload. Utilizing advanced AI technology, Pinspire ensures high accuracy and fast results. Whether you are looking to find similar artwork, products, or any other type of image, Pinspire is here to assist you.
 
 ## Features
 
